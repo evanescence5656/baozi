@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+}
+header{
+    background-image: url(./headerbackground.jpg);
+    height:111px;
+}
+section{height:1500px;
+    background-image: url(./background.jpg);
+    background-size: 100% 100%;
+}
+.headerbox{width:500px;
+    text-align: center;
+    font-size:30px;
+    font-style:italic;
+    line-height:50px;
+    margin:0px auto;
+    margin-top:0;
+    border:2px solid #cccccc;
+    border-radius: 20px;
+    box-shadow:3px 4px 2px 3px #cccccc,-3px 4px 2px 3px #cccccc;
+    text-shadow:2px 1px 2px rgb(0, 213, 255);
+    color:aqua;
+    background-image: url(./header.jpg);
+    background-size:cover;
+    position:sticky;
+    top:0px;
+}
+.pic1{
+    width:800px;
+    
+    border-right:6px solid rgb(0, 255, 200);
+    border-bottom:6px solid rgb(0, 255, 200);
+    border-bottom-right-radius: 155px;
+    float:left;
+
+}
+h3{padding-top:20px;
+    text-indent:20px;
+    text-shadow: 2px;
+    color:chartreuse;
+    line-height:30px;
+    font-weight:bold;
+    font-style:italic;
+    font-size:30px;
+}
+.pic1>img{
+    border:5px solid rgb(0, 255, 200);
+    border-radius:8px;
+    box-shadow:1px 1px 2px 2px rgb(0, 255, 200);
+    margin:10px;
+    background-color:rgb(0, 255, 200) ;
+}
+#pic8{
+    width:216px;
+    height:324px;
+} 
+#pic6{
+    width:216px;
+    height:311.2px;
+}
+#pic5{
+    width:216px;
+    height:270px;
+}
+.pic1>p{
+    text-shadow: 2px;
+    color:chartreuse;
+    line-height:30px;
+    font-weight:bold;
+    font-style:italic;
+    font-size:30px;
+    font-size:20px;
+    text-indent:20px;
+}
+.pic1-text{
+    width:600px;
+    height:400px;
+    float:left;
+    position:relative;
+}
+.pic1-text>p{color:rgb(0, 255, 200);
+    font-size:30px;
+    line-height: 70px;
+    
+    text-indent:60px;
+    font-style:italic;
+}
+
+.pic1-text>img{
+    width:150px;
+    height:150px;
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    transform: rotate(10deg);
+    opacity: 0.7;
+
+}
+.pic2{width:800px;
+    height:500px;
+    float:right;
+    margin-top:80px;
+    
+}
+.pic2>img{
+
+}
+#hr1{
+    rotate:-5deg;
+    
+}
+#pic1{
+    width:202px;
+    height:206px;
+    transform: rotate(-15deg);
+    margin-bottom:50px;
+    margin-left: 120px;
+}
+#pic4{
+    width:216px;
+    height:288px;
+    transform:rotate(5deg);
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+#pic7{
+    width:216px;
+    height:312px;
+    transform:rotate(-5deg);
+}
+#hr2{
+    rotate:5deg;
+}
+.pic2-text{
+    width:665px;
+    float:left;
+    border-right:5px solid rgb(0, 255, 200);
+    border-bottom: 5px solid rgb(0, 255, 200);
+    
+    position: relative;
+
+}
+.pic2-text>img{
+    opacity: 0.7;
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+.pic2-text>p{color:rgb(0, 255, 200);
+    font-size:30px;
+    line-height: 70px;
+    
+    text-indent:10px;
+    font-style:italic;
+
+}
+#p0{margin-top:50px;
+
+}
+.pic3{position: relative;
+    width:700px;
+    height:400px;
+    
+}
+#pic2{
+    width:209px;
+    height:384px;
+    border:2px solid pink ;
+    border-radius: 104.5px 104.5px 104.5px 104.5px/192px 192px 192px 192px;
+    margin-top: 20px;
+}
+#pic3{
+    width:216px;
+    height:288px;
+    border:2px solid pink ;
+    border-radius: 108px 108px 108px 108px/144px 144px 144px 144px;
+    position:relative;
+    top:-50px;
+
+}
+#pic9{
+    width:216px;
+    height:216px;
+    border:2px solid pink ;
+    border-radius: 108px 108px 108px 108px/108px 108px 108px 108px;
+    position:relative;
+    top:-80px;
+}
+.pic3>p{
+    position:absolute;
+    top:850px;
+    color:rgb(0, 255, 200);
+    font-size:25px;
+    text-indent:200px;
+    font-style: italic;
+}
+.pic4{width:800px;
+    height:400px;
+    position:absolute;
+    top:1267px;
+    right:5px;
+
+}
+.pic4>img{
+    margin-right: 20px;
+    border:2px solid rgb(187, 0, 255)
+}
+#pic10{
+    width:216px;
+    height:284px;
+
+}
+#pic11{
+    width:216px;
+    height:288px;
+
+}
+#pic12{
+    width:216px;
+    height:340px;
+    margin-right: 0;
+}
+.pic4-text{position:absolute;
+    top:1150px;
+    right:200px;
+    color:rgb(0, 255, 200);
+    font-size:25px;
+    
+    font-style: italic;
+}
